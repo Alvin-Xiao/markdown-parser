@@ -1,6 +1,6 @@
-# Another test case for part 3
+# Title
 
-This is testing to see if images work with the code:
+[a link!](https://something.com)
+[another link!](some-page.html)
 
-[some link](https:google.com)
-![some image](some-image.png)
+some paragraph text after the links
