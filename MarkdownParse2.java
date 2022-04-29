@@ -36,7 +36,7 @@ public class MarkdownParse2 {
 
             //Make sure closed bracket is right next to parentheses
             if(closeBracket != openParen - 1) {
-                currentIndex = closeParen + 1;
+                currentIndex = closeBracket + 1;
                 continue;
             }
 
