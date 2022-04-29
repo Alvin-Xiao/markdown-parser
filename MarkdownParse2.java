@@ -40,7 +40,9 @@ public class MarkdownParse2 {
                 continue;
             }
 
-            toReturn.add(markdown.substring(openParen + 1, closeParen));
+            if(!markdown.substring(openParen + 1, closeParen).equals("")) {
+                toReturn.add(markdown.substring(openParen + 1, closeParen));
+            }
             currentIndex = closeParen + 1;
         }
 
