@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 // This edit was made to test whether it can be committed and pushed to the repository
-// Second edit
+// Another edit
 public class MarkdownParse {
 
     public static ArrayList<String> getLinks(String markdown) {
